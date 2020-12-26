@@ -1,7 +1,9 @@
 package com.realstate.usermodule.dao;
 
 import com.realstate.usermodule.entity.User;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UserMapper {
     int deleteByPrimaryKey(Long id);
 

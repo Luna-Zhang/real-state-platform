@@ -4,8 +4,8 @@ server:
 # mysql≈‰÷√
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/house?characterEncodiong=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/house?useSSL=true&characterEncodiong=utf-8
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
@@ -13,4 +13,6 @@ spring:
       min-idle: 5
       max-active: 10
       max-wait: 60000
-
+# mybatis-plus≈‰÷√
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml

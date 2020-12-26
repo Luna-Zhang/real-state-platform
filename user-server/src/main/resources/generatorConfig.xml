@@ -43,11 +43,11 @@
                              targetPackage="com.realstate.usermodule.dao"
                              targetProject="src/main/java"/>
 
-<!--        <table tableName="house_msg" domainObjectName="HouseMsg"
+        <table tableName="house_msg" domainObjectName="HouseMsg"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
             <generatedKey column="id" sqlStatement="MySql" identity="false"/>
-        </table>-->
+        </table>
     </context>
 </generatorConfiguration>

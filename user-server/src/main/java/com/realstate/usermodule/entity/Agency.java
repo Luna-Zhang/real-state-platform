@@ -1,8 +1,12 @@
 package com.realstate.usermodule.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.util.Date;
 
+@TableName("agency")
 public class Agency {
+
     private Long id;
 
     private String name;

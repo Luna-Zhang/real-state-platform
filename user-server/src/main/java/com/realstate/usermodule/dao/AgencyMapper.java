@@ -1,7 +1,9 @@
 package com.realstate.usermodule.dao;
 
 import com.realstate.usermodule.entity.Agency;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface AgencyMapper {
     int deleteByPrimaryKey(Long id);
 

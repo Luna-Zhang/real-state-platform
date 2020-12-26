@@ -1,7 +1,9 @@
 package com.realstate.usermodule.dao;
 
 import com.realstate.usermodule.entity.Comment;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface CommentMapper {
     int deleteByPrimaryKey(Long id);
 

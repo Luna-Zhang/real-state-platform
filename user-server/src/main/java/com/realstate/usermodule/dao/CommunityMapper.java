@@ -1,7 +1,9 @@
 package com.realstate.usermodule.dao;
 
 import com.realstate.usermodule.entity.Community;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface CommunityMapper {
     int deleteByPrimaryKey(Long id);
 
